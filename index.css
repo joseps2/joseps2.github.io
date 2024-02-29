@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(white, #24BAFA);
+  background-attachment: fixed;
+  transition:opacity;
+  opacity:1;
+}
+
+body.fadeout{
+  opacity:0;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexybox {
+  display:flex;
+  text-align: center;
+  margin-top: 5px;
+  justify-content:center;
+}
+
+
+.vital {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+.vibe {
+  font-family: 'Jua', sans-serif;
+  font-size: 42px;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
