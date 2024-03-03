@@ -39,4 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.classList.remove('color-blindness-mode');
         }
     });
+
+    // for the health log button
+    document.getElementById('health-log').addEventListener('click', () => {
+        window.location.href = 'healthlog.html'; 
+    });
+    
 });
