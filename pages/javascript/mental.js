@@ -2,7 +2,6 @@ function link(dest) {
     window.location.href = dest + ".html";
 }
 
-
 function startMeditation(meditationType) {
     console.log(`Starting ${meditationType} meditation`);
 }
