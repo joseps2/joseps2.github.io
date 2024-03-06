@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(white, #24BAFA);
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flexybox {
+  display:flex;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.headerWithLogo {
+  display:flex;
+  width: 100%;
+  justify-content:center;
+}
+
+.vital {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+}
+
+.vibe {
+  font-family: 'Jua', sans-serif;
+  font-size: 37px;
+}
+
+.headerLogo {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.fa-house {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.fa-user {
+  text-align: right;
+  font-size: 30px;
+  width: 100%;
+  margin-right: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+.mainBox {
+  margin: auto;
+  background-color: white;
+  border: solid black 2px;
+  width: 95%;
+  height: 75%;
+  margin-top: 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+}
+
+.topHeader {
+  display: flex;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.fa-utensils {
+  font-size: 32px;
+  color: #C13331;
+}
+
+.container {
+  margin-top: 2%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.viewButton {
+  background-color: #C13331;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  margin-bottom: 2%;
+}
+
+.viewButton:hover, .filterButton:hover {
+  background-color: #b73331;
+}
+
+.col {
+  border: solid 2px #C13331;
+  margin-right: 10px;
+}
+
+.row { 
+  margin-bottom: 10px;
+}
+
+.searchSection {
+  display: flex;
+  width: 96%;
+  margin: 10px 10px 0 10px;
+  gap: 10px;
+}
+
+.searchParam {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+
+.fa-magnifying-glass {
+  color:#C13331;
+  font-size: 25px;
+}
+
+.searchInput {
+  border-color:#C13331;
+  width: 100%;
+}
+
+.filterButton {
+  background-color: #C13331;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 20%;
+  padding: 5px 0 5px 0;
+}
+
+.fa-share-nodes {
+  color: #C13331;
+  text-align: right;
+  font-size: 25px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.recipeImg {
+  height: 125px;
+  width: 225px;
+}
+
+.pRecipe {
+  line-height: 2px;
+}
+
+h3 {
+  line-height: 40px;
+}

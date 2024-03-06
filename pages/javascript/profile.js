@@ -1,3 +1,7 @@
+function link(dest) {
+  window.location.href = dest + ".html";
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const textSizeSlider = document.getElementById('text-size');
     textSizeSlider.addEventListener('input', () => {

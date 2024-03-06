@@ -1,12 +1,6 @@
 body {
   background: linear-gradient(white, #24BAFA);
   background-attachment: fixed;
-  transition:opacity;
-  opacity:1;
-}
-
-body.fadeout{
-  opacity:0;
 }
 
 .logo {
