@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/nutrition.css"/>
     <link rel="icon" type="image/x-icon" href="../images/vital_vibe_logo.webp">
     <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
-    <script src="javascript/nutrition.js"></script>
+    <script src="javascript/nutrition.js" defer></script>
     <script src="https://kit.fontawesome.com/8129353ffd.js" crossorigin="anonymous"></script>
   </head>
 
@@ -31,7 +31,99 @@
           <i class="fa-solid fa-magnifying-glass"></i>
           <input type="text" placeholder="Search.." class="searchInput">
         </div>
-      <button class="filterButton">Filter</button>
+      <button class="filterButton" id="filterBtn">Filter</button>
+      </div>
+
+      <div id="filterModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p class="filterHeader">Allergens</p>
+                <label class="checks">Tree Nuts
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Peanuts
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Gluten
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Dairy
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Soy
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Eggs
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="col">
+                <p class="filterHeader">Dietary Lifestyle</p>
+                <label class="checks">Vegetarian
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Vegan
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Pescetarian
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Kosher
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">Halal
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="col">
+                <p class="filterHeader">Cook Time</p>
+                <label class="checks">Under 15 minutes
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">15-30 minutes
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">30-45 minutes
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">45-60 minutes
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checks">60+ minutes
+                  <input type="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="btnBox">
+            <button class="saveBtn">Save</button>
+            <button class="cancelBtn" id="cancel">Cancel</button>
+          </div>
+
+
+        </div>
+      
       </div>
 
       <div class="container">

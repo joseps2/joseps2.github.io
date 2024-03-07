@@ -1,12 +1,6 @@
-
-function link(destination) {
-    if (destination === 'home') {
-        window.location.href = 'index.html'; 
-    } else if (destination === 'profile') {
-        window.location.href = 'profile.html'; 
-    }
+function link(dest) {
+    window.location.href = dest + ".html";
 }
-
 
 function startMeditation(meditationType) {
     console.log(`Starting ${meditationType} meditation`);
