@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(white, #24BAFA);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.flexybox {
+	display:flex;
+	width: 100%;
+	margin-top: 1%;
+}
+
+.headerWithLogo {
+	display:flex;
+	width: 100%;
+	justify-content:center;
+}
+
+.vital {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 35px;
+}
+
+.vibe {
+	font-family: 'Jua', sans-serif;
+	font-size: 37px;
+}
+
+.headerLogo {
+	margin-left: 5px;
+	text-align: center;
+}
+
+.fa-house {
+	text-align: left;
+	font-size: 30px;
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.fa-user {
+	text-align: right;
+	font-size: 30px;
+	width: 100%;
+	margin-right: 1%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+.mainBox {
+	margin: auto;
+	background-color: white;
+	border: solid black 2px;
+	width: 95%;
+	height: 75%;
+	margin-top: 3%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5px 5px 5px 5px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 26px;
+}
+
+input {
+	width: 90%;
+	border: solid 2px black;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 0px 5px 0px 5px;
+}
+
+textarea {
+	width: 90%;
+	border: solid 2px black;
+	display: block;
+	margin: auto;
+	padding: 0px 5px 0px 5px;
+}
+
+.send-btn {
+	background-color: #24BBFB;
+	font-weight: bold;
+	text-align: center;
+	width: 90%;
+	display: block;
+	margin: auto;
+	height: 8%;
+}
+
+.follow-us {
+    margin-top: 20px;
+		text-align: center;
+		font-size: 18px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 8% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+	border: solid 2px black;
+}
+
+.modalText {
+	text-align: center;
+	font-size: 20px;
+}
+
+.fa-circle-xmark {
+	font-size: 25px;
+	text-align: right;
+}
+
+.fa-circle-xmark:hover {
+	cursor: pointer;
+}
