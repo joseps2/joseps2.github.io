@@ -6,47 +6,53 @@
       "Allergens": "Gluten, Dairy",
       "Servings": 4,
       "Ingredients": "Spaghetti Noodles, Cheese, Tomato Sauce, Ground Beef/Turkey, Salt, Pepper, Garlic, Oregano",
-      "Recipe": "Do stuff"
+      "Recipe": "Boil noodles for 15 minutes. Drain noodles. Mix spices and ground meat. Roll into balls and bake meat in oven for 15 minutes",
+      "Image": "../images/spaghetti.jpg"
     },
     {
       "title": "Chicken Friend Rice",
       "cookTime": "20 Minutes",
       "Allergens": "Egg, Soy",
       "Servings": 2,
-      "Ingredients": "Blah, Blah, Blah",
-      "Recipe": "Do stuff"
+      "Ingredients": "White Rice, Egg, Soy Sauce, Carrots, Peas, Chicken",
+      "Recipe": "Use premade white rice for best results. Cook chicken in pan. Scramble egg and combine with chicken and vegetables. Add in the rice and soy sauce",
+      "Image": "../images/cfr.webp"
     },
     {
       "title": "Bean Burrito",
       "cookTime": "25 Minutes",
       "Allergens": "Gluten",
       "Servings": 1,
-      "Ingredients": "Blah, Blah, Blah",
-      "Recipe": "Do stuff"
+      "Ingredients": "Beans, GroundMeat, Flour Tortilla",
+      "Recipe": "Cook ground meat and beans. Place meat and beans in a tortilla. Wrap and eat ",
+      "Image": "../images/burrito.jpg"
     },
     {
       "title": "Salmon and Rice",
       "cookTime": "30 Minutes",
       "Allergens": "None",
       "Servings": 2,
-      "Ingredients": "Blah, Blah, Blah",
-      "Recipe": "Do stuff"
+      "Ingredients": "Salmon, Rice of choice, Salt, Pepper, Garlic powder",
+      "Recipe": "Cook rice and set aside. Cook salmon in skillet and season with salt, pepper, and garlic powder. Plate and eat",
+      "Image": "../images/salmon.jpg"
     },
     {
       "title": "Hamburger",
       "cookTime": "30 Minutes",
       "Allergens": "Gluten",
       "Servings": 6,
-      "Ingredients": "Blah, Blah, Blah",
-      "Recipe": "Do stuff"
+      "Ingredients": "Burger Bun, Ground beef",
+      "Recipe": "Shape ground meat into burger patty. Cook on stove for 6 minutes on each side. Plate with garnishes of choice",
+      "Image": "../images/burger.jpg"
     },
     {
       "title": "French Onion Soup",
       "cookTime": "40 Minutes",
       "Allergens": "Gluten, Dairy",
       "Servings": 3,
-      "Ingredients": "Blah, Blah, Blah",
-      "Recipe": "Do stuff"
+      "Ingredients": "Cheese, Onion, Beef Broth, Bread, Oil",
+      "Recipe": "Mix onions and oil until onions are soft. Add broth and cheeses",
+      "Image": "../images/soup.jpg"
     }
   ]
 }
