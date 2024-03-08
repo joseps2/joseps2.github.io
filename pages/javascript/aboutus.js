@@ -1,7 +1,3 @@
-function link(destination) {
-    console.log(`Navigate to ${destination}`);
-}
-
-function contactUs() {
-    console.log("Contact us clicked!");
+function link(dest) {
+    window.location.href = dest + ".html";
 }

@@ -1,0 +1,52 @@
+{
+  "recipes": [
+    {
+      "title": "Spaghetti and Meatballs",
+      "cookTime": "30 Minutes",
+      "Allergens": "Gluten, Dairy",
+      "Servings": 4,
+      "Ingredients": "Spaghetti Noodles, Cheese, Tomato Sauce, Ground Beef/Turkey, Salt, Pepper, Garlic, Oregano",
+      "Recipe": "Do stuff"
+    },
+    {
+      "title": "Chicken Friend Rice",
+      "cookTime": "20 Minutes",
+      "Allergens": "Egg, Soy",
+      "Servings": 2,
+      "Ingredients": "Blah, Blah, Blah",
+      "Recipe": "Do stuff"
+    },
+    {
+      "title": "Bean Burrito",
+      "cookTime": "25 Minutes",
+      "Allergens": "Gluten",
+      "Servings": 1,
+      "Ingredients": "Blah, Blah, Blah",
+      "Recipe": "Do stuff"
+    },
+    {
+      "title": "Salmon and Rice",
+      "cookTime": "30 Minutes",
+      "Allergens": "None",
+      "Servings": 2,
+      "Ingredients": "Blah, Blah, Blah",
+      "Recipe": "Do stuff"
+    },
+    {
+      "title": "Hamburger",
+      "cookTime": "30 Minutes",
+      "Allergens": "Gluten",
+      "Servings": 6,
+      "Ingredients": "Blah, Blah, Blah",
+      "Recipe": "Do stuff"
+    },
+    {
+      "title": "French Onion Soup",
+      "cookTime": "40 Minutes",
+      "Allergens": "Gluten, Dairy",
+      "Servings": 3,
+      "Ingredients": "Blah, Blah, Blah",
+      "Recipe": "Do stuff"
+    }
+  ]
+}

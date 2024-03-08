@@ -1,16 +1,20 @@
-function submitMessage() {
-    var modal = document.getElementById("thankYouModal");
-    var span = document.getElementsByClassName("close")[0];
+function link(dest) {
+    window.location.href = dest + ".html";
+}
 
-    modal.style.display = "block";
+function modalDisplay() {
+	document.getElementById("sendModal").style.display = "block";
+}
 
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
+var closeBtn = document.getElementById("cancel");
 
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+closeBtn.onclick = function() {
+  document.getElementById("sendModal").style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == document.getElementById("sendModal")) {
+    document.getElementById("sendModal").style.display = "none";
+  }
 }
