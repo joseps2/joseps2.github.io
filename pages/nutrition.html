@@ -14,13 +14,13 @@
 
   <body>
     <header class="flexybox">
-      <i class="fa-solid fa-house" onclick="link('home')"></i>
+      <i class="fa-solid fa-house" onclick="link('home', 'none')"></i>
       <div class="headerWithLogo">
         <h1 class="vital">Vital</h1>
         <h1 class="vibe">Vibe</h1>
         <img src="../images/vital_vibe_logo.webp" alt="VitalVibe logo" class="headerLogo" height="55" width="55">
       </div>
-      <i class="fa-solid fa-user" onclick="link('profile')"></i>
+      <i class="fa-solid fa-user" onclick="link('profile', 'none')"></i>
     </header>
 
     <div class="mainBox">
@@ -136,7 +136,7 @@
             <p class="pRecipe"><strong>Cook Time: </strong>30 Minutes</p>
             <p class="pRecipe"><strong>Allergens: </strong>Gluten, Dairy</p>
             <p class="pRecipe"><strong>Servings: </strong>4</p>
-            <button class="viewButton">View Recipe</button>
+            <button class="viewButton" onclick="link('recipe', 0)">View Recipe</button>
           </div>
           <div class="col">
             <i class="fa-solid fa-share-nodes"></i>
@@ -146,7 +146,7 @@
             <p class="pRecipe"><strong>Cook Time: </strong>20 Minutes</p>
             <p class="pRecipe"><strong>Allergens: </strong>Egg, Soy</p>
             <p class="pRecipe"><strong>Servings: </strong>2</p>
-            <button class="viewButton">View Recipe</button>
+            <button class="viewButton" onclick="link('recipe', 1)">View Recipe</button>
           </div>
           <div class="col">
             <i class="fa-solid fa-share-nodes"></i>
@@ -156,7 +156,7 @@
             <p class="pRecipe"><strong>Cook Time: </strong>25 Minutes</p>
             <p class="pRecipe"><strong>Allergens: </strong>Gluten</p>
             <p class="pRecipe"><strong>Servings: </strong>1</p>
-            <button class="viewButton">View Recipe</button>
+            <button class="viewButton" onclick="link('recipe', 2)">View Recipe</button>
           </div>
         </div>
         <div class="row">
@@ -168,7 +168,7 @@
             <p class="pRecipe"><strong>Cook Time: </strong>30 Minutes</p>
             <p class="pRecipe"><strong>Allergens: </strong>None</p>
             <p class="pRecipe"><strong>Servings: </strong>2</p>
-            <button class="viewButton">View Recipe</button>
+            <button class="viewButton" onclick="link('recipe', 3)">View Recipe</button>
           </div>
           <div class="col">
             <i class="fa-solid fa-share-nodes"></i>
@@ -178,7 +178,7 @@
             <p class="pRecipe"><strong>Cook Time: </strong>30 Minutes</p>
             <p class="pRecipe"><strong>Allergens: </strong>Gluten</p>
             <p class="pRecipe"><strong>Servings: </strong>6</p>
-            <button class="viewButton">View Recipe</button>
+            <button class="viewButton" onclick="link('recipe', 4)">View Recipe</button>
           </div>
           <div class="col">
             <i class="fa-solid fa-share-nodes"></i>
@@ -188,7 +188,7 @@
             <p class="pRecipe"><strong>Cook Time: </strong>40 Minutes</p>
             <p class="pRecipe"><strong>Allergens: </strong>Gluten, Dairy</p>
             <p class="pRecipe"><strong>Servings: </strong>3</p>
-            <button class="viewButton">View Recipe</button>
+            <button class="viewButton" onclick="link('recipe', 5)">View Recipe</button>
           </div>
         </div>
       </div>

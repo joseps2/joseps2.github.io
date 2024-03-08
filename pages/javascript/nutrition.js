@@ -1,5 +1,12 @@
-function link(dest) {
-  window.location.href = dest + ".html";
+function link(dest, spec) {
+  if (dest == "recipe") {
+    localStorage.setItem("arrIndex", spec);
+    window.location.href = dest + ".html";
+  }
+  else {
+    window.location.href = dest + ".html";
+  }
+
 }
 
 // Get the modal
