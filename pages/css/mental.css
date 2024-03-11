@@ -90,6 +90,10 @@ body {
 	font-weight: bold;
 }
 
+.dailyMindfulness {
+	text-align: center;
+}
+
 .fa-play-circle {
 	font-size: 30px;
 	margin: 10px 0;
