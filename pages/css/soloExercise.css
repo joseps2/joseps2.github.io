@@ -1,0 +1,162 @@
+body {
+  background: linear-gradient(white, #24BAFA);
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flexybox {
+  display:flex;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.headerWithLogo {
+  display:flex;
+  width: 100%;
+  justify-content:center;
+}
+
+.vital {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+}
+
+.vibe {
+  font-family: 'Jua', sans-serif;
+  font-size: 37px;
+}
+
+.headerLogo {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.fa-house {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.fa-user {
+  text-align: right;
+  font-size: 30px;
+  width: 100%;
+  margin-right: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+.mainBox {
+  margin: auto;
+  background-color: white;
+  border: solid black 2px;
+  width: 95%;
+  height: 75%;
+  margin-top: 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topHeader {
+  display: flex;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.fa-heart-pulse {
+  font-size: 32px;
+  color: #A675C1;
+}
+
+.friendExercise {
+  background-color: #A675C1;
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-right: 35px;
+  border: solid 2px #A675C1;
+  width: 250px;
+}
+
+.fa-share-nodes {
+  color:#A675C1;
+  font-size: 28px;
+  text-align: left;
+  justify-self: left;
+  cursor: pointer;
+  width: 100%;
+  padding-top: 60px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.fa-person-running {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.col-8, #exer {
+  border: solid 2px #A675C1;
+  margin-left: 5px;
+}
+
+.row {
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.col {
+  border-bottom: solid 2px #A675C1;
+}
+
+.col-8 {
+  align-items: center;
+}
+
+.flexin {
+  display: flex;
+  gap: 46%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-chevron-left {
+  color:#A675C1;
+  font-size: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.zoom {
+  margin-top: 5px;
+}
+
+.zoomBlah {
+  text-align: right;
+}
+
+#p1, #p2 {
+  border: solid 2px black;
+  width: 100%;
+  height: 146px;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 30px;
+}
