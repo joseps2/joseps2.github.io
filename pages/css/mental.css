@@ -1,66 +1,65 @@
 body {
-	background: linear-gradient(white, #24BAFA);
-	background-attachment: fixed;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(white, #24BAFA);
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flexybox {
-	display:flex;
-	width: 100%;
-	margin-top: 1%;
+  display:flex;
+  width: 100%;
+  margin-top: 1%;
 }
 
 .headerWithLogo {
-	display:flex;
-	width: 100%;
-	justify-content:center;
+  display:flex;
+  width: 100%;
+  justify-content:center;
 }
 
 .vital {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
 }
 
 .vibe {
-	font-family: 'Jua', sans-serif;
-	font-size: 37px;
+  font-family: 'Jua', sans-serif;
+  font-size: 37px;
 }
 
 .headerLogo {
-	margin-left: 5px;
-	text-align: center;
+  margin-left: 5px;
+  text-align: center;
 }
 
 .fa-house {
-	text-align: left;
-	font-size: 30px;
-	margin-left: 1%;
-	margin-top: 1%;
-	width: 100%;
-	cursor: pointer;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 100%;
+  cursor: pointer;
 }
 
 .fa-user {
-	text-align: right;
-	font-size: 30px;
-	width: 100%;
-	margin-right: 1%;
-	margin-top: 1%;
-	cursor: pointer;
+  text-align: right;
+  font-size: 30px;
+  width: 100%;
+  margin-right: 1%;
+  margin-top: 1%;
+  cursor: pointer;
 }
-
-.fa-brain {
-	font-size: 32px;
-	color: #DD1D85;
-}
-
 
 .mainBox {
-	background-color: white;
-	border: 2px solid #DD1D85;
-	margin: 20px auto;
-	padding: 20px;
-	width: 80%;
+  margin: auto;
+  background-color: white;
+  border: solid black 2px;
+  width: 95%;
+  height: 75%;
+  margin-top: 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .topHeader {
@@ -70,49 +69,78 @@ body {
   font-size: 25px;
   justify-content: center;
   gap: 15px;
-	margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.container {
-	display: flex;
-	justify-content: space-between;
+.fa-brain {
+  font-size: 32px;
+  color: #DD1D85;
 }
 
-.leftPanel, .rightPanel {
-	border: 2px solid #DD1D85;
-	padding: 10px;
-	width: 48%;
+
+.fa-share-nodes {
+  color:#DD1D85;
+  font-size: 28px;
+  text-align: left;
+  justify-self: left;
+  cursor: pointer;
+  width: 100%;
 }
 
-.dailyMindfulness h2, .mindfulnessLibrary h2 {
-	font-size: 20px;
-	margin-bottom: 15px;
-	font-weight: bold;
+h3 {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.dailyMindfulness {
-	text-align: center;
+.col-8, #exer {
+  border: solid 2px #DD1D85;
+  margin-left: 5px;
 }
 
-.fa-play-circle {
-	font-size: 30px;
-	margin: 10px 0;
+.row {
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
+.col {
+  border-bottom: solid 2px #DD1D85;
 }
 
-li {
-	margin-bottom: 10px;
-	font-size: 16px;
+.col-8 {
+  align-items: center;
 }
 
-span {
-	font-weight: bold;
+.flexin {
+  display: flex;
+  gap: 30%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
-.meditationGif {
-	width: 100%;
+.fa-chevron-left {
+  color:#DD1D85;
+  font-size: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.zoom {
+  margin-top: 5px;
+}
+
+.zoomBlah {
+  text-align: right;
+}
+
+#p1, #p2 {
+  border: solid 2px black;
+  width: 100%;
+  height: 146px;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 30px;
 }
