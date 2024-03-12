@@ -72,19 +72,29 @@ body {
   margin-top: 10px;
 }
 
-.fa-brain {
+.fa-heart-pulse {
   font-size: 32px;
-  color: #DD1D85;
+  color: #A675C1;
 }
 
+.friendExercise {
+  background-color: #A675C1;
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-right: 35px;
+  border: solid 2px #A675C1;
+  width: 250px;
+}
 
 .fa-share-nodes {
-  color:#DD1D85;
+  color:#A675C1;
   font-size: 28px;
   text-align: left;
   justify-self: left;
   cursor: pointer;
   width: 100%;
+  padding-top: 60px;
 }
 
 h3 {
@@ -92,8 +102,14 @@ h3 {
   font-weight: bold;
 }
 
+.fa-person-running {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
 .col-8, #exer {
-  border: solid 2px #DD1D85;
+  border: solid 2px #A675C1;
   margin-left: 5px;
 }
 
@@ -104,7 +120,7 @@ h3 {
 }
 
 .col {
-  border-bottom: solid 2px #DD1D85;
+  border-bottom: solid 2px #A675C1;
 }
 
 .col-8 {
@@ -113,14 +129,14 @@ h3 {
 
 .flexin {
   display: flex;
-  gap: 30%;
+  gap: 46%;
   width: 100%;
   text-align: center;
   justify-content: center;
 }
 
 .fa-chevron-left {
-  color:#DD1D85;
+  color:#A675C1;
   font-size: 25px;
   margin-top: 25px;
   cursor: pointer;
