@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(white, #24BAFA);
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flexybox {
+  display:flex;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.headerWithLogo {
+  display:flex;
+  width: 100%;
+  justify-content:center;
+}
+
+.vital {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+}
+
+.vibe {
+  font-family: 'Jua', sans-serif;
+  font-size: 37px;
+}
+
+.headerLogo {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.fa-house {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.fa-user {
+  text-align: right;
+  font-size: 30px;
+  width: 100%;
+  margin-right: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+.mainBox {
+  margin: auto;
+  background-color: white;
+  border: solid black 2px;
+  width: 95%;
+  height: 75%;
+  margin-top: 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+}
+
+.topHeader {
+  display: flex;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  width: 95%;
+}
+
+.fa-book {
+  font-size: 32px;
+  color: #F78713;
+}
+
+.fa-chevron-left {
+  font-size: 32px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 2%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  align-items: flex-end;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.content {
+  margin-top: 5%;
+  text-align: left;
+}

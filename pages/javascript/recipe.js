@@ -14,7 +14,8 @@ function funcCall() {
         document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Cook Time: </strong>" + obj.recipes[index].cookTime + " Minutes</p>";
         document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Allergens: </strong>" + obj.recipes[index].Allergens + "</p>";
         document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Allergens: </strong>" + obj.recipes[index].Servings + "</p>";
-        document.getElementById("colOne").innerHTML += "<i class='fa-solid fa-share-nodes'></i>";
+        document.getElementById("colOne").innerHTML += "<i class='fa-solid fa-share-nodes' onclick=\"copy('" + obj.recipes[index].title + "')\"></i>";
+
         var ingre = obj.recipes[index].Ingredients.split(',');
         document.getElementById("colTwo").innerHTML += "<ul>";
         for (let i = 0; i < ingre.length; i++) {
@@ -37,4 +38,9 @@ function funcCall() {
   var link = "../pages/recipes.json";
   xhttp.open("GET", link);
   xhttp.send();
+}
+
+function copy(title) {
+  navigator.clipboard.writeText(title);
+  alert("Copied to clipboard!");
 }

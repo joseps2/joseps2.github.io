@@ -27,3 +27,8 @@ function exerciseType() {
 
   }
 }
+
+function copy(title) {
+  navigator.clipboard.writeText(title);
+  alert("Copied to clipboard!");
+}

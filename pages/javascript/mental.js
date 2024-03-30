@@ -33,3 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
         dailyExerciseButton.addEventListener('click', () => startMeditation('Guided Meditation'));
     }
 });
+
+function copy(title) {
+    navigator.clipboard.writeText(title);
+    alert("Copied to clipboard!");
+  }

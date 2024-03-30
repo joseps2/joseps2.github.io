@@ -34,3 +34,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function copy(title) {
+  navigator.clipboard.writeText(title);
+  alert("Copied to clipboard!");
+}
