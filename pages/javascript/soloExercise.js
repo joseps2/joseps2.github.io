@@ -32,3 +32,9 @@ function copy(title) {
   navigator.clipboard.writeText(title);
   alert("Copied to clipboard!");
 }
+
+function swap(change, time, vid) {
+  document.getElementById("workout").innerHTML  =  "<h3>" + change + "</h3>" + 
+  "<iframe width='400' height='200' src=\'" + vid + "\' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>" +
+  "<p><strong>Time:</strong> " + time + " minutes</div></p>"
+}
