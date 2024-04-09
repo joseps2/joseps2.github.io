@@ -70,6 +70,13 @@ body {
   justify-content: center;
   gap: 15px;
   margin-top: 10px;
+  width: 95%;
+}
+
+.fa-chevron-left {
+  font-size: 32px;
+  text-align: left;
+  cursor: pointer;
 }
 
 .fa-heart-pulse {
@@ -94,7 +101,7 @@ body {
   justify-self: left;
   cursor: pointer;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 h3 {
@@ -129,21 +136,21 @@ h3 {
 
 .flexin {
   display: flex;
-  gap: 46%;
+  gap: 44%;
   width: 100%;
   text-align: center;
   justify-content: center;
 }
 
-.fa-chevron-left {
+.fa-circle-chevron-left {
   color:#A675C1;
   font-size: 25px;
-  margin-top: 25px;
+  margin-top: 27px;
   cursor: pointer;
 }
 
 .zoom {
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .zoomBlah {

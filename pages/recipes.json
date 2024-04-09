@@ -7,6 +7,7 @@
       "Servings": 4,
       "Ingredients": "Spaghetti Noodles, Cheese, Tomato Sauce, Ground Beef/Turkey, Salt, Pepper, Garlic, Oregano",
       "Recipe": "Boil noodles for 15 minutes. Drain noodles. Mix spices and ground meat. Roll into balls and bake meat in oven for 15 minutes",
+      "Calories": 100,
       "Image": "../images/spaghetti.jpg"
     },
     {
@@ -16,6 +17,7 @@
       "Servings": 2,
       "Ingredients": "White Rice, Egg, Soy Sauce, Carrots, Peas, Chicken",
       "Recipe": "Use premade white rice for best results. Cook chicken in pan. Scramble egg and combine with chicken and vegetables. Add in the rice and soy sauce",
+      "Calories": 80,
       "Image": "../images/cfr.webp"
     },
     {
@@ -25,6 +27,7 @@
       "Servings": 1,
       "Ingredients": "Beans, GroundMeat, Flour Tortilla",
       "Recipe": "Cook ground meat and beans. Place meat and beans in a tortilla. Wrap and eat ",
+      "Calories": 100,
       "Image": "../images/burrito.jpg"
     },
     {
@@ -34,6 +37,7 @@
       "Servings": 2,
       "Ingredients": "Salmon, Rice of choice, Salt, Pepper, Garlic powder",
       "Recipe": "Cook rice and set aside. Cook salmon in skillet and season with salt, pepper, and garlic powder. Plate and eat",
+      "Calories": 70,
       "Image": "../images/salmon.jpg"
     },
     {
@@ -43,6 +47,7 @@
       "Servings": 6,
       "Ingredients": "Burger Bun, Ground beef",
       "Recipe": "Shape ground meat into burger patty. Cook on stove for 6 minutes on each side. Plate with garnishes of choice",
+      "Calories": 100,
       "Image": "../images/burger.jpg"
     },
     {
@@ -52,6 +57,7 @@
       "Servings": 3,
       "Ingredients": "Cheese, Onion, Beef Broth, Bread, Oil",
       "Recipe": "Mix onions and oil until onions are soft. Add broth and cheeses",
+      "Calories": 90,
       "Image": "../images/soup.jpg"
     }
   ]

@@ -15,6 +15,7 @@ function getTime() {
       document.getElementById(days[dow] + "BedTime").innerHTML = hours + ":" + mins + " PM";
   }
 
+  
   let Wtime = document.getElementById("wakeTime").value;
   let [Whours, Wmins] = Wtime.split(":");
   if (Whours > 12) {
