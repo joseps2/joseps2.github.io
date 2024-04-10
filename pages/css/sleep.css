@@ -60,6 +60,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow-y: scroll;
 }
 
 .topHeader {
@@ -92,35 +93,7 @@ body {
 .textStuff {
   font-size: 18px;
   text-align: center;
-  margin-top: 4%;
-}
-
-.weeklyScroll {
-  display: flex;
-  width: 95%;
-  justify-content: center;
-  gap: 75px;
-  margin-top: 2%;
-  text-align: center;
-}
-
-.fa-caret-left {
-  font-size: 22px;
-  cursor: pointer;
-}
-
-.weekDay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 18px;
-  text-align: center;
-  height: 100%;
-}
-
-.day {
-  border: dotted 2px #53C5BB;
-  width: 55px;
+  margin-top: 20px;
 }
 
 .submitTime {
@@ -128,4 +101,12 @@ body {
   background-color: white;
   color: black;
   font-weight: bold;
+}
+
+canvas{
+  margin: 0 auto;
+}
+
+.timeInput select {
+  border-color: #53C5BB;
 }

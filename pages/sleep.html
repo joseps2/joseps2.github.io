@@ -9,10 +9,11 @@
     <link rel="icon" type="image/x-icon" href="../images/vital_vibe_logo.webp">
     <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
     <script src="javascript/sleep.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://kit.fontawesome.com/8129353ffd.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body onload="firstGraph()">
     <header class="flexybox">
       <i class="fa-solid fa-house" onclick="link('home')"></i>
       <div class="headerWithLogo">
@@ -36,55 +37,27 @@
           <label for="wakeTime">I woke up at: </label>
           <input type="time" id="wakeTime" name="wakeTime" value="08:30">
         </div>
+
+        <div>
+          <label for="wakeTime">On: </label>
+          <select name="day" id="day">
+            <option value="Su">Sunday</option>
+            <option value="M">Monday</option>
+            <option value="Tu">Tuesday</option>
+            <option value="W">Wednesday</option>
+            <option value="Th">Thursday</option>
+            <option value="F">Friday</option>
+            <option value="Sa">Saturday</option>
+          </select>
+        </div>
+
         <button class="submitTime" onclick="getTime()">Submit</button>
       </div>
 
       <p class="textStuff"><strong>This Week</strong> (3/24/2024 - 3/30/2024)</p>
-      <div class="weeklyScroll">
-        <i class="fa-solid fa-caret-left"></i>
-        <div class="weekDay">
-          <p class="day">Su</p>
-          <p id="SuBedTime">11:00 PM</p>
-          <p id="SuWakeTime">07:00 AM</p>
-          <p><strong>8 hours</strong></p>
-        </div>
-        <div class="weekDay">
-          <p class="day">M</p>
-          <p id="MBedTime"></p>
-          <p id="MWakeTime"></p>
-          <p id="MCalculateTime"></p>
-        </div>
-        <div class="weekDay">
-          <p class="day">Tu</p>
-          <p id="TuBedTime"></p>
-          <p id="TuWakeTime"></p>
-          <p id="TuCalculateTime"></p>
-        </div>
-        <div class="weekDay">
-          <p class="day">W</p>
-          <p id="WBedTime"></p>
-          <p id="WWakeTime"></p>
-          <p id="WCalculateTime"></p>
-        </div>
-        <div class="weekDay">
-          <p class="day">Th</p>
-          <p id="ThBedTime"></p>
-          <p id="ThWakeTime"></p>
-          <p id="ThCalculateTime"></p>
-        </div>
-        <div class="weekDay">
-          <p class="day">F</p>
-          <p id="FBedTime"></p>
-          <p id="FWakeTime"></p>
-          <p id="FCalculateTime"></p>
-        </div>
-        <div class="weekDay">
-          <p class="day">Sa</p>
-        </div>
-      </div>
-    </div>
+      <canvas id="myChart1" style="width:100%;max-width:700px"></canvas>
+      <canvas id="myChart2" style="width:100%;max-width:700px"></canvas>
 
-   
 
   </body>
 </html>

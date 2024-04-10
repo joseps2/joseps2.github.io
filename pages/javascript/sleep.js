@@ -2,31 +2,82 @@ function link(dest) {
   window.location.href = dest + ".html";
 }
 
-function getTime() {
-  let days = ["Su", "M", "Tu", "W","Th", "F","Sa"];
-  let date = new Date();
-  var dow = date.getDay();
-  let time = document.getElementById("bedTime").value;
-  let [hours, mins] = time.split(":");
-  if (hours > 12) {
-    document.getElementById(days[dow] + "BedTime").innerHTML = hours%12 + ":" + mins + " PM";
-  }
-  else {
-      document.getElementById(days[dow] + "BedTime").innerHTML = hours + ":" + mins + " PM";
-  }
+function firstGraph() {
+  const xValues = ["Su", "M", "Tu", "W", "Th", "F","Sa"];
+  const yValues = [6, 7, 7.5];
 
+  new Chart("myChart1", {
+    type: "line",
+    data: {
+      labels: xValues,
+      datasets: [{
+        fill: false,
+        lineTension: 0,
+        backgroundColor: "#53C5BB",
+        borderColor: "#53C5BB",
+        data: yValues
+      }]
+    },
+    options: {
   
-  let Wtime = document.getElementById("wakeTime").value;
-  let [Whours, Wmins] = Wtime.split(":");
-  if (Whours > 12) {
-      document.getElementById(days[dow] + "WakeTime").innerHTML = Whours%12 + ":" + Whoursmins + " PM";
-    
+      plugins: {
+          legend: {display: false},
+      },
+      scales: {
+          x: {
+              title: {
+                  display: true,
+                  text: 'Days of the Week'
+              },
+          },
+          y: {
+              title: {
+                  display: true,
+                  text: 'Hours of Sleep'
+              },
+          }
+      }
   }
-  else {
-    document.getElementById(days[dow] + "WakeTime").innerHTML = Whours + ":" + Wmins + " AM";
-  }
+  });
+}
 
-  let calculate = (hours%12 - Whours) / 36e5;
-  let sleeping = String(calculate);
-  document.getElementById(days[dow] + "CalculateTime").innerHTML = "<strong>" + sleeping.split(".")[0] + " hours </strong>";
+
+function getTime() {
+  document.getElementById("myChart1").style.display = "none";
+  const xValues = ["Su", "M", "Tu", "W", "Th", "F","Sa"];
+  const yValues = [6, 7, 7.5, 8, 7, 8, 8];
+
+  new Chart("myChart2", {
+    type: "line",
+    data: {
+      labels: xValues,
+      datasets: [{
+        fill: false,
+        lineTension: 0,
+        backgroundColor: "#53C5BB",
+        borderColor: "#53C5BB",
+        data: yValues
+      }]
+    },
+    options: {
+  
+      plugins: {
+          legend: {display: false},
+      },
+      scales: {
+          x: {
+              title: {
+                  display: true,
+                  text: 'Days of the Week'
+              },
+          },
+          y: {
+              title: {
+                  display: true,
+                  text: 'Hours of Sleep'
+              },
+          }
+      }
+  }
+  });
 }
