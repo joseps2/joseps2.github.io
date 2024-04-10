@@ -117,3 +117,9 @@ button:hover {
 .row { 
   margin-bottom: 10px;
 }
+
+.fa-person-running, .fa-bed, .fa-dumbbell, .fa-person-circle-question, .fa-glass-water, .fa-house-chimney-user{
+  text-align: center;
+  font-size: 45px;
+  color:#F78713;
+}

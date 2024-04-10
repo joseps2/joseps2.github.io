@@ -6,5 +6,9 @@ function link(dest, spec) {
   else {
     window.location.href = dest + ".html";
   }
+}
 
+function copy(title) {
+  navigator.clipboard.writeText(title);
+  alert("Copied to clipboard!");
 }

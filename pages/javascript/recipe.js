@@ -13,7 +13,8 @@ function funcCall() {
         document.getElementById("colOne").innerHTML += "<h3>" + obj.recipes[index].title + "</h3>";
         document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Cook Time: </strong>" + obj.recipes[index].cookTime + " Minutes</p>";
         document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Allergens: </strong>" + obj.recipes[index].Allergens + "</p>";
-        document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Allergens: </strong>" + obj.recipes[index].Servings + "</p>";
+        document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Servings: </strong>" + obj.recipes[index].Servings + "</p>";
+        document.getElementById("colOne").innerHTML += "<p class='pRecipe'><strong>Calories: </strong>" + obj.recipes[index].Calories + "</p>";
         document.getElementById("colOne").innerHTML += "<i class='fa-solid fa-share-nodes' onclick=\"copy('" + obj.recipes[index].title + "')\"></i>";
 
         var ingre = obj.recipes[index].Ingredients.split(',');

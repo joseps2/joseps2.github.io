@@ -89,7 +89,7 @@ body {
 }
 
 .fa-heart {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 h3 {
@@ -113,16 +113,16 @@ button {
 }
 
 #mi {
-  width:50px;
+  width:60px;
   margin: 0 0 0 0;
   background-color: #A675C1;
   color: white;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 18px;
 }
 
 #km {
-  width:50px;
+  width:60px;
   margin: 0 0 0 0;
   text-align: center;
   justify-content: center;

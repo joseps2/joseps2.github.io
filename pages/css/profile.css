@@ -198,3 +198,9 @@ input:checked + .slider:before {
   margin-top: 8px;
   cursor: pointer;
 }
+
+#health-log {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}

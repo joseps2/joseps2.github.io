@@ -70,6 +70,13 @@ body {
   justify-content: center;
   gap: 15px;
   margin-top: 10px;
+  width: 95%;
+}
+
+.fa-chevron-left {
+  font-size: 32px;
+  text-align: left;
+  cursor: pointer;
 }
 
 .fa-heart-pulse {
@@ -94,18 +101,11 @@ body {
   justify-self: left;
   cursor: pointer;
   width: 100%;
-  padding-top: 10px;
 }
 
 h3 {
   font-size: 25px;
   font-weight: bold;
-}
-
-.fa-person-running {
-  font-size: 50px;
-  padding-top: 50px;
-  padding-bottom: 30px;
 }
 
 .col-8, #exer {
@@ -129,21 +129,21 @@ h3 {
 
 .flexin {
   display: flex;
-  gap: 46%;
+  gap: 22%;
   width: 100%;
   text-align: center;
   justify-content: center;
 }
 
-.fa-chevron-left {
+.fa-circle-chevron-left {
   color:#A675C1;
   font-size: 25px;
-  margin-top: 25px;
+  margin-top: 27px;
   cursor: pointer;
 }
 
 .zoom {
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 .zoomBlah {
@@ -159,4 +159,8 @@ h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 30px;
+}
+
+p {
+  line-height: 10px;
 }
